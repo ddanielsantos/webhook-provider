@@ -10,6 +10,8 @@ Let's say you want to send a message in a specific Discord channel everytime an 
 - My application: the one subscribed to Github events, it has a POST endpoint that process the payload and applies any logic needed to achieve my bussiness rule
 - Payload: the message sent by Github, specifying the event that triggered the request
 
+todo: finish example
+
 ### This repo
 
 
