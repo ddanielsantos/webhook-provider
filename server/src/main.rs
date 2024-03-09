@@ -5,7 +5,7 @@ use tokio::net::TcpListener;
 mod api;
 mod config;
 mod db;
-// mod domains;
+mod domains;
 mod state;
 
 #[tokio::main]
