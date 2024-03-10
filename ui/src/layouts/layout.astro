@@ -1,0 +1,23 @@
+---
+import '../styles/global.css'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>some product</title>
+  </head>
+
+  <body>
+    <main class="w-full flex flex-col">
+      <div class="w-full max-w-3xl self-center flex flex-col p-4 gap-10 sm:my-20 my-10">
+       <slot />
+      </div>
+    </main>
+  </body>
+</html>
